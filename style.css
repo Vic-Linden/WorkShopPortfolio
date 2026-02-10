@@ -1,0 +1,168 @@
+
+*{  
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+    background: linear-gradient(95deg, rgb(205, 165, 205), rgb(247, 203, 241));
+}
+
+header{
+    background-color: rgb(83, 49, 99);
+    width: 100%;
+    margin-bottom: 0.5rem;;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+}
+
+#logo a{
+    padding: 10px;
+    font-family: "Oleo Script", sans-serif;
+    color: rgb(174, 103, 165);
+    font-size: 2rem;
+    text-decoration:none;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 3px rgb(91, 55, 84);
+}
+
+header a{
+    font-size: 20px;
+    padding: 12px;
+    color: rgb(169, 82, 158);
+    text-shadow: 1px 1px 2px rgba(180, 85, 160, 0.2);
+    border-radius: 5px;
+}
+
+a{
+    text-decoration: none;
+}
+header a:hover{
+    background-color: rgb(169, 82, 158);
+    border-radius: 3px;
+    color: antiquewhite;
+}
+
+header ul{
+    display: flex;
+}
+
+header li{
+    padding: 5px;
+}
+
+.hero{
+    display: flex; 
+    height: 50 vh;
+    text-align: center;
+    background: radial-gradient(45deg, #b590a7, #725c86);
+}
+.hero div{
+    width: 60%;
+    align-content: center;
+}
+
+h1,h2{
+    font-family: "Cinzel", serif;
+    color: goldenrod;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+    text-align: center;
+    padding: 0.5rem;
+}
+
+h1{
+    font-size: 3rem;
+    margin-bottom: 0;
+}
+
+h2{
+    color: #64477f;
+    font-size: 1.5rem;
+    margin-top: 0;
+    margin-bottom: 3rem;
+}
+
+.hero a{
+    padding: 1rem;
+    margin: 2.5rem 1rem;
+    background-color: #64477f;
+    color: white;
+    border-radius: 600px;    
+    box-shadow: 2px 2px 5px #b590a7;
+}
+
+.hero a:hover{
+    background-color: #6d5880;
+}
+
+.heroImage{
+    width: 40%;
+    border: 5px solid;
+    border-color: goldenrod; 
+    border-radius: 50%;
+    margin: 1.5rem;
+}
+
+.features{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background-color: pink;   
+    color: #64477f;     
+}
+
+.features div{
+    background-color: antiquewhite;
+    padding: 1.5rem;
+    margin: 2rem 1rem;    
+    border-radius: 10px;
+    width: 25%;
+    box-shadow: 5px 5px 3px #b590a7;
+}
+
+svg{
+    width: 2rem;
+    height: 2rem;
+}
+
+article{
+    display: flex;
+    justify-content: space-around;
+    background-color: antiquewhite;
+}
+
+article div{
+    width:45%;
+    padding: 1rem;
+    margin: 1.5rem;
+    background-color: rgb(180, 199, 219);
+    border-radius: 5px;
+    color:  #64477f;
+    
+}
+
+blockquote{
+    font-style: italic;
+    font-weight: 900;
+}
+
+footer{
+    text-align: center;
+    padding: 5px;
+    background-color: rgb(74, 37, 92);
+    color: goldenrod;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+    font-size: large;
+}
+
+
+
